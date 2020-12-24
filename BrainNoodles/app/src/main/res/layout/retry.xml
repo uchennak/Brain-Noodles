@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/choose_test_bg">
+
+    <ImageView
+        android:src="@drawable/retry_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/retry"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="197dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="onButtonClick" />
+
+    <ImageView
+        android:src="@drawable/quit_button"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/quit"
+        android:layout_below="@+id/retry"
+        android:layout_alignLeft="@+id/retry"
+        android:layout_alignStart="@+id/retry"
+        android:layout_marginTop="34dp"
+        android:onClick="onButtonClick"/>
+
+    <ImageView
+        android:src="@drawable/too_slow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+
+
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="88dp" />
+</RelativeLayout>

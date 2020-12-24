@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/new_brain_nood_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"><![CDATA[>
+        ]]></LinearLayout>
+
+        <ImageView
+            android:id="@+id/easy"
+            android:src="@drawable/easy_math"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+
+            android:layout_marginTop="50dp"
+            android:onClick="onButtonClick"
+            android:text="       Easy       " />
+
+        <ImageView
+            android:id="@+id/not_as_easy"
+            android:src="@drawable/not_as_easy_math"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/easy"
+            android:onClick="onButtonClick"
+            android:text="Not as Easy" />
+
+        <ImageView
+            android:id="@+id/harder"
+            android:src="@drawable/harder_math"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/not_as_easy"
+            android:layout_marginLeft="90dp"
+
+            android:layout_marginTop="10dp"
+            android:onClick="onButtonClick"
+            android:text="Harder" />
+
+        <ImageView
+            android:id="@+id/hardest"
+            android:src="@drawable/hardest_math"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/harder"
+            android:layout_marginLeft="90dp"
+
+            android:layout_marginTop="10dp"
+            android:onClick="onButtonClick"
+            android:text="Harder" />
+
+        <ImageView
+            android:id="@+id/hardestV2"
+            android:src="@drawable/hardest_v2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hardest"
+            android:layout_marginLeft="90dp"
+
+            android:layout_marginTop="10dp"
+            android:onClick="onButtonClick"
+            android:text="Harder" />
+
+        <ImageView
+            android:id="@+id/pythag"
+            android:src="@drawable/pythag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hardestV2"
+            android:layout_marginLeft="90dp"
+
+            android:layout_marginTop="10dp"
+            android:onClick="onButtonClick"
+            android:text="Harder" />
+
+    <Button
+        android:id="@+id/home_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:onClick="onButtonClick"
+        android:text="Home"
+        android:textSize="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="0dp" />
+
+</RelativeLayout>

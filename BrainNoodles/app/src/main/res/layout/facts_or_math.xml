@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/choose_test_bg">
+
+    <ImageView
+        android:id="@+id/randomFacts"
+        android:src="@drawable/random_facts"
+        android:layout_width="190dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="68dp"
+        android:onClick="onButtonClick"
+        android:text="RandomFacts"
+        android:textSize="22sp" />
+
+    <ImageView
+        android:id="@+id/fastMath"
+        android:src="@drawable/fast_math"
+        android:layout_width="190dp"
+        android:layout_height="80dp"
+        android:layout_alignEnd="@+id/randomFacts"
+        android:layout_alignRight="@+id/randomFacts"
+        android:layout_below="@+id/randomFacts"
+        android:layout_marginTop="20dp"
+        android:onClick="onButtonClick"
+        android:text="FastMath"
+        android:textSize="22sp" />
+    <ImageView
+        android:id="@+id/productive_procrastination"
+        android:src="@drawable/productive_procrastination"
+        android:layout_width="190dp"
+        android:layout_height="80dp"
+        android:layout_alignEnd="@+id/fastMath"
+        android:layout_alignRight="@+id/fastMath"
+        android:layout_below="@+id/fastMath"
+        android:layout_marginTop="20dp"
+        android:onClick="onButtonClick"
+        android:text="FastMath"
+        android:textSize="22sp" />
+
+</RelativeLayout>

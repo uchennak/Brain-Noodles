@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/new_brain_nood_bg">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="43dp"
+        android:layout_marginStart="43dp"
+        android:id="@+id/linearLayoutCAT">
+
+        <ImageView
+            android:src="@drawable/choose_a_level"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/chooseALevel"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="30dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="69dp"
+        android:id="@+id/linearLayout"
+        android:layout_alignParentTop="true">
+
+        <ImageView
+            android:src="@drawable/ta_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/buttonA"
+            android:onClick="onButtonClick"
+            android:layout_marginLeft="35dp"/>
+
+        <ImageView
+            android:src="@drawable/tb_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/buttonB"
+            android:layout_marginLeft="10dp"
+            android:onClick="onButtonClick"/>
+
+        <ImageView
+            android:src="@drawable/tc_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/buttonC"
+            android:layout_marginLeft="10dp"
+            android:onClick="onButtonClick"/>
+
+        <ImageView
+            android:src="@drawable/td_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/buttonD"
+            android:layout_marginLeft="10dp"
+            android:onClick="onButtonClick"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout"
+        android:layout_marginTop="15dp"
+        android:id="@+id/linearLayout2">
+
+
+        <ImageView
+            android:src="@drawable/te_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/buttonE"
+            android:onClick="onButtonClick"
+            android:layout_alignTop="@+id/linearLayout2"
+            android:layout_toRightOf="@+id/linearLayout2"
+            android:layout_toEndOf="@+id/linearLayout2"
+            android:layout_marginLeft="35dp"/>
+
+        <ImageView
+            android:src="@drawable/tf_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/buttonF"
+            android:layout_marginLeft="10dp"
+            android:onClick="onButtonClick" />
+
+        <ImageView
+            android:src="@drawable/tg_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/buttonG"
+            android:layout_marginLeft="10dp"
+            android:onClick="onButtonClick"/>
+
+        <ImageView
+            android:src="@drawable/th_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/buttonH"
+            android:layout_marginLeft="10dp"
+            android:onClick="onButtonClick"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_marginTop="15dp"
+        android:id="@+id/linearLayout3">
+
+        <ImageView
+            android:src="@drawable/ti_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/buttonI"
+            android:layout_marginLeft="35dp"
+            android:onClick="onButtonClick"/>
+
+        <ImageView
+            android:src="@drawable/tj_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/buttonJ"
+            android:layout_marginLeft="10dp"
+            android:onClick="onButtonClick"/>
+        <ImageView
+            android:src="@drawable/tk_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/buttonK"
+            android:layout_marginLeft="10dp"
+            android:onClick="onButtonClick"/>
+        <ImageView
+            android:src="@drawable/tl_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/buttonL"
+            android:layout_marginLeft="10dp"
+            android:onClick="onButtonClick"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout3"
+        android:layout_marginTop="15dp"
+        android:id="@+id/linearLayout4">
+
+       <ImageView
+            android:src="@drawable/tm_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/buttonM"
+            android:layout_marginLeft="35dp"
+            android:onClick="onButtonClick"/>
+
+        <ImageView
+            android:src="@drawable/tn_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/buttonN"
+            android:layout_marginLeft="150dp"
+            android:onClick="onButtonClick"/>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/home_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:onClick="onButtonClick"
+        android:text="Home"
+        android:textSize="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="0dp" />
+
+
+</RelativeLayout>
